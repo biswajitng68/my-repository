@@ -1,0 +1,52 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+h1{
+	text-align: center;
+}
+div{
+	background-color: rgb(150, 160, 200);
+	box-sizing: border-box;
+	width: 450px;
+	height: 300px;
+	margin: 1px;
+	padding: 5px;
+	border: 2px solid black;
+}
+h3.corner{
+	background-color: rgb(120, 90, 80);
+	width: 17%;
+	position: relative;
+	
+	right: -80%;
+	margin: 1px;
+	padding: 3px;
+	border: 2px solid black;
+}
+@media(min-width: 992px)
+{
+	.max{
+		float: left;
+		width: 33%;
+	}
+}
+@media (min-width: 767px) and (max-width: 991px)
+{
+	.mid{
+		float: left;
+		width: 49.7%;
+	}
+	.extra{
+		float: left;
+		width: 99.4%;
+	}
+}
+@media (max-width: 766px)
+{
+   .low{
+   	float: left;
+   	width: 99%;
+   }
+}
