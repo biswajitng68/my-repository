@@ -91,6 +91,13 @@ div.image{
 	text-align: center;
 	text-transform: uppercase;
 }
+.link{
+	text-decoration: none;
+}
+.link:hover{
+	text-shadow: 1em rgb(100, 150, 160);
+	color: gold;
+}
 @media(min-width: 1000px)
 {
 	.education{
@@ -121,7 +128,10 @@ div.image{
 		float: left;
 	}
 	h1{
-		font-size: 1.5em;
+		font-size: 5vw;
+	}
+	.s1{
+		font-size: 4vw;
 	}
 	.footer{
 		font-size: 0.8em;
