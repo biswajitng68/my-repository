@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	background-color: #aef3ae;
+}
+.navbar-brand{
+	height: unset;
+	padding: unset;
+	padding-left: 20px;
+}
+ul{
+	text-align: center;
+	background-color: lightgray;
+	color: blue;
+}
+ul.st{
+	color: darkorchid;
+}
+.text{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.bc{
+	background-color: cornsilk;
+}
+.ch {
+	padding-bottom: 30px;
+	padding-top: 20px;
+	font-size: x-large;
+	font-weight: 600;
+}
+.pad{
+	padding: 10;
+ }
+ .container{
+ 	margin: ;
+ }
