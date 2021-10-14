@@ -62,7 +62,8 @@ div.image{
 	line-height: 2em;
 	font-size: 1.6em;
 	position: relative;
-	width: 48%;
+	width: 48%;}
+.foot{background-color: greenyellow;
 
 }
 .education{
@@ -136,4 +137,64 @@ div.image{
 	.footer{
 		font-size: 0.8em;
 	}
+	.im{                                                            
+		height: 350px;
+	}                                 
+}
+.navbar{
+	height: unset;
+}
+img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+.intro{
+	text-align: center;
+    color: #efe807;
+
+}
+a:link{
+	text-decoration: none;
+	color: chocolate;
+	box-shadow: brown;
+}
+.pad{
+	padding: 10px;
+
+}
+#teach{
+	text-align: center;
+	color: white;
+	font-size: x-large;
+}
+.teacher{
+	
+	
+	padding: 5px;
+	
+}
+.new{
+	background-color: brown;
+	text-align: center;
+	color: cornsilk;
+}
+.bck{
+	background-color: #3f4f5e;
+}
+#principal{
+	color: aliceblue;
+	font-size: 1.4em;
+}
+#rule{
+	font-size: 1.5em;
+	color: antiquewhite;
+	line-height: 2em;
+}
+#ach{
+	color: cornsilk;
+}
+.achieve{
+	font-size: 1.2em;
 }
