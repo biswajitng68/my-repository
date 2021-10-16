@@ -121,6 +121,7 @@ div.image{
 		position: relative;
 		bottom: 0;
 	}
+
 }
 @media(max-width: 689px)
 {
@@ -197,4 +198,26 @@ a:link{
 }
 .achieve{
 	font-size: 1.2em;
+}
+@media(max-width: 750px)
+	{.prof{
+		height: 100px;
+		width: 100px;
+	}
+	.achpic{
+		width: 300px;
+	}
+	#rule{
+		font-size: 0.85em;
+	}
+}
+.eduli{
+	color: coral;
+}
+.eduol{
+	color: darkturquoise;
+}
+.edul{
+	background-color: #386858;
+	height: 380px;
 }
