@@ -1,11 +1,11 @@
 body{
 	color: rgb(10, 100, 200);
-	background-color: rgb(120, 190, 130);
+	background-color: white;
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto Slab', serif;
 	box-sizing: border-box;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiOg4NuwpTHG-E95Bvl0JhO6CTa3X924QJUA&usqp=CAU);
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiOg4NuwpTHG-E95Bvl0JhO6CTa3X924QJUA&usqp=CAU);*/
 }
 h1{
 	font-size: 4.5vw;
@@ -28,12 +28,10 @@ div.head1{
 	padding: 0;
 	border: 5px solid black;
 	background-color: rgb(200, 140, 140);
-	width: 99%;
+	width: 100%;
 	margin: 5px;
 	position: relative;
 	box-sizing: border-box;
-	float: left;
-	
 }
 .maps{
 	padding: 0;
@@ -48,27 +46,22 @@ div.head1{
 	text-align: center;
 	text-transform: uppercase;
 }
-div.image{
-	
-	
-	
-}
-
 .footer{
 	text-align: center;
-	float: left;
 	color: black;
-	margin: 3px;
+	margin-top: 20px;
 	line-height: 2em;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	position: relative;
-	width: 48%;}
-.foot{background-color: greenyellow;
-
+	width: 100%;}
+.foot{background-color: aliceblue;
+	opacity: 0.8;
+	display: flex;
+	justify-content: space-around;
 }
 .education{
 	width: 32%;
-	height: 200px;
+	height: auto;
 	background-color: chocolate;
 	border: 5px solid black;
 	margin: 5px;
@@ -78,6 +71,7 @@ div.image{
 	overflow: hidden;
 	position: relative;
 	box-sizing: border-box;
+	
 }
 .ed{
 	padding: 0;
@@ -91,6 +85,7 @@ div.image{
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
+	border-radius: 1.5em;
 }
 .link{
 	text-decoration: none;
@@ -218,6 +213,10 @@ a:link{
 	color: darkturquoise;
 }
 .edul{
-	background-color: #386858;
+	background-color: #090c0b;
 	height: 380px;
+	border-radius: 1.5em;
+}
+header{
+	background-color: darkturquoise;
 }
